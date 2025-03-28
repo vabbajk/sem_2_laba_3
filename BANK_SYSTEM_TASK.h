@@ -1,11 +1,11 @@
-#ifndef TASK_2_H
-#define TASK_2_H
+#ifndef BANK_SYSTEM_TASK_H
+#define BANK_SYSTEM_TASK_H
 
-#include "functions_to_task_2.h"
-#include "functions_to_interface.h"
+#include "MAIN_DATABASE_FUNCTIONS.h"
+#include "INTERFACE.h"
 
 
-int task_2() {
+int bank_system() {
 
 
     setlocale(LC_ALL, "");

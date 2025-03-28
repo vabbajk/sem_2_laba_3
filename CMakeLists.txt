@@ -4,10 +4,10 @@ project(sem_2_laba_3 C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(sem_2_laba_3 main.c
-        functions_to_interface.h
+        INTERFACE.h
         Header.h
-        task_1.h
+        byte_field_task.h
         Error_codes.h
-        task_2.h
-        functions_to_task_2.h
+        BANK_SYSTEM_TASK.h
+        MAIN_DATABASE_FUNCTIONS.h
 )

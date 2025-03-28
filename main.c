@@ -2,15 +2,11 @@
 #include <locale.h>
 #include <stdlib.h>
 #include "Error_codes.h"
-#include "task_1.h"
-#include "functions_to_interface.h"
-#include "task_2.h"
-#include "functions_to_task_2.h"
+#include "byte_field_task.h"
+#include "INTERFACE.h"
+#include "BANK_SYSTEM_TASK.h"
+#include "MAIN_DATABASE_FUNCTIONS.h"
 #include <string.h>
-
-struct First_task_struct {
-    unsigned int number:32;
-};
 
 int main(void) {
 
@@ -30,9 +26,9 @@ int main(void) {
 
         switch (c) {
             case '1':
-                task_1();
+                bite_field();
             case '2':
-                task_2();
+                bank_system();
             default:
                 loop = 0;
                 break;

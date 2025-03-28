@@ -1,5 +1,5 @@
-#ifndef FUNCTIONS_TO_TASK_2_H
-#define FUNCTIONS_TO_TASK_2_H
+#ifndef MAIN_DATABASE_FUNCTIONS
+#define MAIN_DATABASE_FUNCTIONS
 
 #include <stdio.h>
 #include <stdlib.h>

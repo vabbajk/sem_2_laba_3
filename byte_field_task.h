@@ -1,5 +1,5 @@
-#ifndef TASK_1_H
-#define TASK_1_H
+#ifndef BYTE_FIELD_TASK
+#define BYTE_FIELD_TASK
 
 
 
@@ -13,7 +13,7 @@ struct thirty_two_bit_num_struct {
     long long int number:64;
 };
 
-int task_1() {
+int bite_field() {
 
     setlocale(LC_ALL, "russian");
 
